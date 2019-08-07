@@ -1,0 +1,24 @@
+[binaries]
+c = 'aarch64-linux-gnu-gcc'
+cpp = 'aarch64-linux-gnu-g++'
+ar = 'aarch64-linux-gnu-ar'
+as = 'aarch64-linux-gnu-as'
+strip = 'aarch64-linux-gnu-strip'
+ranlib = 'aarch64-linux-gnu-ranlib'
+ld = 'aarch64-linux-gnu-ld'
+objdump = 'aarch64-linux-gnu-objdump'
+objcopy = 'aarch64-linux-gnu-objcopy'
+size = 'aarch64-linux-gnu-size'
+pkgconfig = 'aarch64-linux-gnu-pkg-config'
+
+[properties]
+needs_exe_wrapper = true
+#c_link_args = ['--target=arm-linux-gnueabihf']
+
+[host_machine]
+system = 'linux'
+cpu_family = 'arm'
+cpu = 'aarch64'
+endian = 'little'
+
+
